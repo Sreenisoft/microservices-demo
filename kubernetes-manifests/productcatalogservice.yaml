@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: productcatalogservice
+        image: sreeni15/productcatalogservice:v1
         ports:
         - containerPort: 3550
         env:
