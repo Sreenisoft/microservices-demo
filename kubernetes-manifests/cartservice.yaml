@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: cartservice
+        image: sreeni15/cartservice:v1
         ports:
         - containerPort: 7070
         env:
