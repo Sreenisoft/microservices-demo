@@ -77,7 +77,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: loadgenerator
+        image: sreeni15/loadgenerator:v1
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
